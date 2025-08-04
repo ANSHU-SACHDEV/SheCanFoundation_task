@@ -44,3 +44,4 @@ const LeaderBoard = () => {
 };
 
 export default LeaderBoard;
+//i changed the name
