@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 import Login from './components/Login';
 import Dashboard from './components/Dashboard';
-import Leaderboard from './components/leaderBoard';
+import LeaderBoard from './components/leaderBoard';
 
 import './index.css';
 
@@ -23,6 +23,8 @@ function App() {
 
         <main className="main-content">
           <Routes>
+            <Route path="*" element={<div>Page Not Found</div>} />
+
             <Route path="/" element={
               user ? (
                 <Dashboard name={user} />
@@ -33,7 +35,7 @@ function App() {
               )
             } />
 
-            <Route path="/leaderboard" element={<Leaderboard />} />
+            <Route path="/leaderboard" element={<LeaderBoard />} />
           </Routes>
         </main>
       </div>
