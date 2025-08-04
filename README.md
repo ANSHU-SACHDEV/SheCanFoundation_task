@@ -10,3 +10,34 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## 🚀 Features
+
+- 🔒 Login for interns
+- 📈 Leaderboard showing:
+  - Rank
+  - Name
+  - Referral code
+  - Total donations raised
+- 🌐 Connected frontend and backend
+- ☁️ Deployed the website at railway
+
+---
+
+## 🧪 Tech Stack
+
+### Frontend:
+- React.js (Vite)
+-  CSS
+- React Router
+
+### Backend:
+- Node.js
+- Express.js
+- MongoDB (via Mongoose)
+(Dummy data)
+there is a lot more expansion that can be done
+---
+
